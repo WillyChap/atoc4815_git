@@ -10,7 +10,7 @@ Instructions:
 """
 
 # TODO: Add your name here
-STUDENT_NAME = ""  # Example: "Alice Johnson"
+STUDENT_NAME = "Maria Carter"  # Example: "Alice Johnson"
 
 
 def load_temperatures(filepath):
