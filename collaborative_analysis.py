@@ -1,8 +1,8 @@
 """
-Collaborative Weather Analysis
+Collaborative Weather Analysis -- edited on main
 ATOC 4815/5815 - Git Collaboration Exercise
 
-Instructions:
+Instructions:git ad
   - Partner A: Complete the functions in SECTION A (temperature analysis)
   - Partner B: Complete the functions in SECTION B (wind chill & heat index)
   - Each partner works on their OWN branch, then merge via pull requests.
