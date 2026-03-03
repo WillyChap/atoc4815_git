@@ -1,5 +1,5 @@
 """
-Collaborative Weather Analysis -- edited on conflic-test
+Collaborative Weather Analysis -- edited on conflict-test
 ATOC 4815/5815 - Git Collaboration Exercise
 
 Instructions:
