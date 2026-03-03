@@ -1,5 +1,5 @@
 """
-Collaborative Weather Analysis
+Collaborative Weather Analysis -- edited on main
 ATOC 4815/5815 - Git Collaboration Exercise
 
 Instructions:
@@ -12,6 +12,8 @@ When both sections are complete, run:
 
 The main() function calls everything and prints a full weather report.
 """
+
+#Edited by Anthony Miranda
 
 # ============================================================
 # SECTION A  --  Partner A: Temperature Analysis
@@ -52,7 +54,8 @@ def celsius_to_fahrenheit(temp_c):
         Temperature in Fahrenheit.
     """
     # TODO (Partner A): implement the conversion
-    pass
+    tempf = temp_c *9/5 + 32
+    return tempf
 
 
 def daily_temp_range(high_f, low_f):
