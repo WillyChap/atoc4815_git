@@ -1,6 +1,6 @@
 """
 Collaborative Weather Analysis -- edited on conflict-test
-ATOC 4815/5815 - Git Collaboration Exercise -- edit again
+ATOC 4815/5815 - Git Collaboration Exercise -- edit again on main
 
 Instructions:
   - Partner A: Complete the functions in SECTION A (temperature analysis)
