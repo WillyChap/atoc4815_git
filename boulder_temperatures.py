@@ -12,7 +12,6 @@ Instructions:
 # TODO: Add your name here
 STUDENT_NAME = "Ignacio Naus"  # Example: "Alice Johnson"
 
-
 def load_temperatures(filepath):
     """Load temperature data from CSV file.
 
