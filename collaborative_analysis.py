@@ -1,11 +1,14 @@
 """
+<<<<<<< HEAD
 Collaborative Weather Analysis -- edited on main
+=======
+Collaborative Weather Analysis -- edited on conflict-test
+>>>>>>> conflict-test
 ATOC 4815/5815 - Git Collaboration Exercise
-
 Instructions:
   - Partner A: Complete the functions in SECTION A (temperature analysis)
   - Partner B: Complete the functions in SECTION B (wind chill & heat index)
-  - Each partner works on their OWN branch, then merge via pull requests.
+  - Each partner works on there OWN branch, then merge via pull requests.
 
 When both sections are complete, run:
     python collaborative_analysis.py
