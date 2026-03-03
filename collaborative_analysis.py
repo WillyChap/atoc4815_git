@@ -1,5 +1,9 @@
 """
+<<<<<<< HEAD
 Collaborative Weather Analysis: edited on main
+=======
+Collaborative Weather Analysis -- edited on conflict-test
+>>>>>>> conflict-test
 ATOC 4815/5815 - Git Collaboration Exercise
 
 Instructions:
