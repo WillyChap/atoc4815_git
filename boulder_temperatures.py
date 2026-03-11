@@ -10,7 +10,7 @@ Instructions:
 """
 
 # TODO: Add your name here
-STUDENT_NAME = "Will Chapman"  # Example: "Alice Johnson"
+STUDENT_NAME = "Ella Ho"  # Example: "Alice Johnson"
 
 
 def load_temperatures(filepath):
@@ -45,7 +45,11 @@ def average_high(data):
     # TODO: Calculate the average high temperature
     # Hint: sum up all the high_f values and divide by the number of days
     # Hint: use data[i]["high_f"] to get the high temp for day i
-    result = None
+
+    sum = 0
+    for day in data:
+        sum += day["high_f"]
+    result = sum / len(data) 
     return result
 
 
@@ -60,8 +64,12 @@ def max_temperature(data):
     """
     # TODO: Find the maximum high temperature
     # Hint: loop through data and track the highest high_f value
-    result = None
-    return result
+
+    max = data[0]["high_f"]
+    for day in data:
+        if day["high_f"] > max:
+            max = day["high_f"]
+    return max
 
 
 def min_temperature(data):
@@ -75,8 +83,12 @@ def min_temperature(data):
     """
     # TODO: Find the minimum low temperature
     # Hint: loop through data and track the lowest low_f value
-    result = None
-    return result
+    
+    min = data[0]["low_f"]
+    for day in data:
+        if day["low_f"] < max:
+            min = day["low_f"]
+    return min
 
 
 # ---- Run the analysis ----
